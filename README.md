@@ -111,4 +111,4 @@ This project is licensed under the [MIT License](LICENSE).
 For questions or suggestions, feel free to reach out:
 
 - **Email**: contact@fidec.com
-- **Social Media**: [LinkedIn](#), [Instagram](#), [Twitter](#)
+- **Social Media**: [LinkedIn](#), [Instagram](https://www.instagram.com/fidec.ag/), [Twitter](#)
