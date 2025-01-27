@@ -1,6 +1,6 @@
-# Fidec Website Project
+# FIDEC Website Project
 
-Welcome to the **Fidec Website Project**! This repository contains the code and resources for building a modern, responsive website for Fidec, a company specializing in digital services such as branding, web development, social media management, and more.
+Welcome to the **FIDEC Website Project**! This repository contains the code and resources for building a modern, responsive website for Fidec, a company specializing in digital services such as branding, web development, social media management, and more.
 
 ## Project Overview
 
