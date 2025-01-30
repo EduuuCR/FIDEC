@@ -1,0 +1,41 @@
+1. Design e Protótipo
+Figma ou Adobe XD:
+Para criar o layout visual do site e prototipar a experiência do usuário.
+
+2. Desenvolvimento Web
+Frontend:
+HTML, CSS e JavaScript: Para estruturar, estilizar e adicionar interatividade ao site.
+Frameworks:
+React.js ou Vue.js: Para um frontend mais dinâmico.
+Bootstrap ou Tailwind CSS: Para estilização mais rápida.
+Backend:
+Node.js (Express.js), Python (Django/Flask) ou PHP (Laravel) para gerenciar formulários de contato, envio de dados e funcionalidade do chatbot.
+Banco de Dados:
+MySQL, PostgreSQL ou Firebase para armazenar dados de clientes.
+
+3. Gestão de Conteúdo
+CMS (Content Management System):
+WordPress (com plugins como Elementor ou Divi): Para permitir que a equipe atualize conteúdo sem depender de desenvolvedores.
+Strapi (se usar frameworks modernos).
+
+4. Integrações
+Chatbot:
+Tidio, ChatGPT API ou Zendesk Chat.
+Redes Sociais:
+Widgets para X, Instagram e WhatsApp.
+
+5. Ferramentas Gráficas
+Adobe Photoshop/Illustrator ou Canva:
+Para criação de banners, identidade visual e elementos gráficos.
+
+6. Otimização
+SEO:
+Use Yoast SEO (WordPress) ou Ahrefs para otimização de palavras-chave e desempenho em buscas.
+Testes de Velocidade:
+Google PageSpeed Insights ou GTmetrix.
+
+7. Hospedagem e Domínio
+Hospedagem:
+HostGator, AWS, Vercel ou Netlify (dependendo da complexidade).
+Domínio:
+Registre um domínio pelo GoDaddy, Namecheap ou similares.
