@@ -1,72 +1,70 @@
 !DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fidec - Transformamos sua Presença Digital">
+    <meta name="keywords" content="Design, Branding, Desenvolvimento Web, Marketing Digital">
     <title>Fidec - Transformamos sua Presença Digital</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
-        <div class="logo">Fidec</div>
         <nav>
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Fale Conosco</a></li>
+                <li><a href="#inicio" class="smooth-scroll">Início</a></li>
+                <li><a href="#sobre" class="smooth-scroll">Sobre</a></li>
+                <li><a href="#servicos" class="smooth-scroll">Serviços</a></li>
+                <li><a href="#contato" class="smooth-scroll">Fale Conosco</a></li>
             </ul>
         </nav>
-        <a href="#contato" class="btn-cta">Orçamento</a>
     </header>
-    
-    <!-- Banner -->
-    <section id="inicio" class="banner">
+
+    <section id="inicio">
         <h1>Transformamos sua Presença Digital</h1>
-        <a href="#contato" class="btn-cta">Fale com Especialista</a>
+        <button onclick="scrollToSection('contato')">Fale com Especialista</button>
     </section>
-    
-    <!-- Sobre -->
-    <section id="sobre" class="sobre">
+
+    <section id="sobre">
         <h2>Sobre Nós</h2>
-        <p>Informações sobre a empresa, portfólio e equipe.</p>
+        <p>Conheça nossa história, equipe e portfólio.</p>
     </section>
-    
-    <!-- Serviços -->
-    <section id="servicos" class="servicos">
-        <h2>O que Fazemos</h2>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
         <ul>
-            <li>Design e Branding: Rebranding, identidade visual, etc.</li>
-            <li>Desenvolvimento Web: Sites, landing pages, manutenção.</li>
-            <li>Social Media e Marketing: Gestão de tráfego, redes sociais.</li>
-            <li>Parte Gráfica: Banner digital, edição.</li>
-            <li>Consultoria: Análise estratégica, suporte técnico.</li>
+            <li>Design e Branding</li>
+            <li>Desenvolvimento Web</li>
+            <li>Social Media e Marketing Digital</li>
+            <li>Parte Gráfica</li>
+            <li>Consultoria</li>
         </ul>
     </section>
-    
-    <!-- Contato -->
-    <section id="contato" class="contato">
+
+    <section id="contato">
         <h2>Entre em Contato</h2>
-        <form>
-            <input type="text" placeholder="Nome" required>
-            <input type="email" placeholder="E-mail" required>
-            <select>
-                <option>Selecione o serviço</option>
-                <option>Design e Branding</option>
-                <option>Desenvolvimento Web</option>
-                <option>Marketing Digital</option>
-                <option>Consultoria</option>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Tipo de Serviço:</label>
+            <select id="service" name="service">
+                <option value="design">Design e Branding</option>
+                <option value="web">Desenvolvimento Web</option>
+                <option value="marketing">Marketing Digital</option>
+                <option value="grafico">Parte Gráfica</option>
+                <option value="consultoria">Consultoria</option>
             </select>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
-    
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 Fidec. Todos os direitos reservados.</p>
-    </footer>
 
-    <script src="js/script.js"></script>
+    <button id="back-to-top" onclick="scrollToTop()">▲</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
