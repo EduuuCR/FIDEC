@@ -24,23 +24,7 @@ The Fidec website aims to showcase the company's expertise and provide an engagi
 
 ---
 
-## Project Structure
 
-```
-📁 Fidec
-├── 📁 public
-│   └── assets (images, icons, etc.)
-├── 📁 src
-│   ├── components (header, footer, forms, etc.)
-│   ├── pages (Home, Services, Portfolio, etc.)
-│   ├── styles (CSS/SCSS files)
-│   └── utils (helper functions)
-├── 📄 package.json
-├── 📄 .gitignore
-└── 📄 README.md
-```
-
----
 
 ## Technologies Used
 
