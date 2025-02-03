@@ -1,0 +1,25 @@
+# Dependências do Node.js
+node_modules/
+package-lock.json
+.yarn/
+.yarnrc.yml
+
+# Arquivos de build
+dist/
+build/
+.cache/
+.vite/
+*.log
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de ambiente
+.env
+.env.local
